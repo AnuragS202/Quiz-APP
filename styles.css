@@ -9,20 +9,20 @@ body{
 }
 
 .quiz-wrapper{
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: 535px;
     background-color: white;
-    margin: 30px auto;
-    border-radius: 8px;
+    margin: 115px auto;
+    border-radius: 90px;
     padding:25px
 }
 
 .quiz-wrapper .question{
     min-height: 40px;
-    background-color: teal;
+    background-color: #a021d8;
     border-radius: 60px;
     color: white;
-    padding: 2px;
+    padding: 12px;
     float: left;
     width: 100%;
     font-size: 20px;
@@ -43,14 +43,14 @@ body{
 
 .quiz-wrapper .options ul li{
     display: inline-block;
-    background-color: #607d8b;
+    background-color: #2d7ba0;
     width: 46%;
-    padding: 15px;
-    border-radius: 60px;
+    padding: 9px;
+    border-radius: 70px;
     margin-bottom: 30px;
-    margin: 10px;
+    margin: 9px;
     color:white;
-    box-shadow: 0px 3px 0px grey;
+    box-shadow: 0px 3px 0px rgb(11, 231, 11);
     cursor: pointer;
 }
 
@@ -81,11 +81,11 @@ body{
 }
 
 .quiz-wrapper .score .next button{
-    padding: 6px 20px;
+    padding: 8px 40px;
     color: white;
-    background-color:#9c27b0;
-    border: none;
-    border-radius: 60px;
+    background-color:#0f4611;
+    border: outset;
+    border-radius: 00px;
 }
 
 .quiz-wrapper .score .score-card{
