@@ -1,12 +1,12 @@
-var ul = document.getElementById('ul')
-var nextButton = document.getElementById('btnNext');
-var quizbox = document.getElementById('questionBox')
-var opt1 = document.getElementById('opt1')
-var opt2 = document.getElementById('opt2')
-var opt3 = document.getElementById('opt3')
-var opt4 = document.getElementById('opt4')
+let ul = document.getElementById('ul')
+let nextButton = document.getElementById('btnNext');
+let quizbox = document.getElementById('questionBox')
+let opt1 = document.getElementById('opt1')
+let opt2 = document.getElementById('opt2')
+let opt3 = document.getElementById('opt3')
+let opt4 = document.getElementById('opt4')
 
-var app={
+const app={
         questions:[
             {
                 q:'The events that are not triggered directly by user activity are called',
@@ -56,14 +56,16 @@ var app={
             this.load();
         },
         check: function(ele){
-            var id=ele.id.split('');
+            const id=ele.id.split('');
             if(id[id.length-1]==this.questions[this.index].answer){
                 this.score++;
                 ele.className="correct";
                 this.scoreCard();
+
             }
             else{
                 ele.className="wrong";
+                alert("wrong answer");
             }
         },
         preventClick:function(){
@@ -79,7 +81,8 @@ var app={
         },
         score:0,
         scoreCard:function(){
-            scoreCard.innerHTML=this.questions.length + "/" + this.score;
+            scoreCard.innerHTML= this.score + "/" + this.questions.length;
+            //scoreCard.innerHTML= + "/" + this.score;
         }
 }
 
