@@ -9,27 +9,27 @@ var opt4 = document.getElementById('opt4')
 var app={
         questions:[
             {
-                q:'1. The events that are not triggered directly by user activity are called',
-                options: [' State change events', 'Device-dependent input events', 'User interface events','Device-independent input events'],
+                q:'The events that are not triggered directly by user activity are called',
+                options: ['a) State change events', 'b) Device-dependent input events', 'c) User interface events','d) Device-independent input events'],
                 answer:1
             },
             {
-                q:'2. The video and the audio belong to the',
+                q:'The video and the audio belong to the',
                 options: ['a) Timers and error handlers', 'b) API-Specific events', 'c) State change events', 'd) User interface events'],
                 answer:2
             },        
             {
-                q:'3. The client-side JavaScript asynchronous programming model contains',
+                q:'The client-side JavaScript asynchronous programming model contains',
                 options: ['a) Timers and error handlers','b) API-specific events','c) State change events','d) User interface events'],
                 answer:1
             },
             {
-                q:'4. Which are the events that have default actions that can be canceled by event handlers?',
+                q:'Which are the events that have default actions that can be canceled by event handlers?',
                 options: ['a) Submit and form-related events','b) Reset and form-related events','c) Submit and reset events','d) form-related events'],
                 answer:3
             },
             {
-                q:'5. The events that represent occurrences related to the browser window are',
+                q:'The events that represent occurrences related to the browser window are',
                 options: ['a) Window','b) Element','c) Display','d) Handlers'],
                 answer:1
             }        
