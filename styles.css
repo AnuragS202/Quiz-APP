@@ -1,22 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
 body{
-  
-/* background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-     /* background-image: url(https://img.wallpapersafari.com/desktop/1366/768/62/60/n1LIxD.jpg);
-    background-repeat:round; */
-    /* margin:44px;
-    padding:4px; */
-    /* display:flexbox;
-    justify-self:auto; */
-
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); 
 }
-
-
-
 
 #container{    /* height: 50vw */
     width: 50vw;
@@ -44,12 +30,12 @@ form :hover{
 }
 
 
-h1 {
-   
+ header h1 {
+   font-size: 9vh;
     text-align: center;
     /* border-bottom: #0f6d60 inset 5px; */
     font-family: 'Birthstone', cursive;
-    font-size: 40px;
+    
     color: rgba(245, 162, 8, 0.959);
 
   }
